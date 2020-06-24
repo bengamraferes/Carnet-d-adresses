@@ -1,0 +1,49 @@
+#conteneur{
+    width: 90vw;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+.modal{
+    position: absolute;
+    right: 39vw;
+    top: calc(45vh/2) ;
+    padding: 4vh;
+    width: 20vw;
+    height: 45vh ;
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+input{
+   margin-bottom: 1vh;
+   width: 60%;
+}
+.modal button {
+    margin-top: 2vh;
+}
+
+.gris{
+    position: absolute;
+    top : 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+button{
+    
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+.modifier{
+  margin-right: 3px;
+}
+#ajouter-contact{
+    width: 120px;
+}
